@@ -1,0 +1,40 @@
+.xm-layout{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  .xm-sider{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 170px;
+    overflow: auto;
+    .log{
+      height: 121px;
+    }
+    img{
+      display: block;
+      width: 100px;
+      height: 100px;
+      margin-left: 27px;
+      margin-top: 19px;
+      border-radius: 85px;
+    }
+  }
+  .xm-content {
+    position: absolute;
+    top: 64px;
+    bottom: 0;
+    right: 0;
+    left: 170px;
+    overflow: auto;
+    min-width: 800px;
+    padding: 20px;
+  }
+}
+.ant-layout{
+  height: 100%;
+}
